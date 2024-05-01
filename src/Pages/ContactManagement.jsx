@@ -28,7 +28,7 @@ const ContactManagement = () => {
             confirmButtonText: "Yes, delete it!"
           }).then(async(result) => {
             if (result.isConfirmed) {
-                const res = await axios.delete(`http://localhost:8000/contact/${item._id}`)
+                const res = await axios.delete(`https://management-system-server-kappa.vercel.app/contact/${item._id}`)
               if(res){
                 refetch()
                 Swal.fire({
