@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet-async"
 import { useForm } from "react-hook-form"
 import useAxiosPublic from "../hooks/useAxiosPublic"
 import Swal from "sweetalert2"
+import ShareButton from "../components/ShareButton"
 
 
 
@@ -39,6 +40,7 @@ const ContactPage = () => {
         }
   return (
     <div className="p-12 ">
+         <ShareButton/>
         <Helmet>
             <title>Contact page</title>
         </Helmet>
@@ -77,7 +79,8 @@ const ContactPage = () => {
             </div>
           
            </div>
-          
+        
+         
     </div>
   )
 }
