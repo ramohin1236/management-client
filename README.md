@@ -16,3 +16,11 @@
       * axios
       * tailwind css
       * tanstack query
+### I use for server-side:
+      * express js
+      * mongodb
+      * node mailer
+      * pdfkit
+      * nodemon
+      * cors
+      
