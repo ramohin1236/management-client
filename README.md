@@ -9,5 +9,10 @@
 ## 2. The project says that if any user submits information so that his data goes to this email test@nusaiba.com.bd in PDF format. It has been used.
 
 ### I use for client-side:
-      1.1 react
-      1.2 
+      * react js
+      * react router dom
+      * react-helmet-async
+      * react-hook-form
+      * axios
+      * tailwind css
+      * tanstack query
